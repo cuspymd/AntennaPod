@@ -49,7 +49,7 @@
     <string name="shownotes_contentdescription">vuốt lên để đọc ghi chú</string>
     <string name="close_label">Đóng</string>
     <string name="retry_label">Thử lại</string>
-    <string name="auto_download_label">Bao gồm trong tự động tải xuống</string>
+    <string name="auto_download_label">Tự động tải xuống</string>
     <string name="feed_auto_download_always">Luôn luôn</string>
     <string name="feed_auto_download_never">Không bao giờ</string>
     <string name="episode_cleanup_never">Không bao giờ</string>
@@ -62,7 +62,7 @@
     <plurals name="num_episodes">
         <item quantity="other">%d tập</item>
     </plurals>
-    <string name="episode_notification_summary">Hiện thông báo khi có tập mới được phát hành.</string>
+    <string name="episode_notification_summary">Hiện thông báo khi có tập mới được phát hành</string>
     <plurals name="new_episode_notification_message">
         <item quantity="other">%2$s có %1$d tập mới</item>
     </plurals>
@@ -191,4 +191,146 @@
     <string name="time_minutes">phút</string>
     <string name="statistics_label_short">Th.kê</string>
     <string name="favorite_episodes_label_short">Thích</string>
+    <string name="drawer_feed_counter_inbox">Số tập trong hộp thư đến</string>
+    <string name="go_to_position_label">Đến vị trí này</string>
+    <string name="clear_playback_history_msg">Hành động này sẽ xoá toàn bộ lịch sử nghe. Bạn chắc chắn muốn thực hiện chứ?</string>
+    <string name="enabled">Đã bật</string>
+    <string name="disabled">Đã tắt</string>
+    <string name="global_default">Cấu hình toàn cục</string>
+    <string name="global_default_with_value">Cấu hình toàn cục (%1$s)</string>
+    <string name="no_chapters_label">Không có chương</string>
+    <string name="feed_volume_adapdation">Điều chỉnh âm lượng</string>
+    <string name="feed_volume_adaptation_summary">Tăng hoặc giảm âm lượng các tập trong podcast này: %1$s</string>
+    <string name="feed_volume_reduction_off">Không điều chỉnh</string>
+    <string name="feed_volume_reduction_light">Giảm ít</string>
+    <string name="feed_volume_reduction_heavy">Giảm nhiều</string>
+    <string name="feed_volume_boost_light">Tăng ít</string>
+    <string name="feed_volume_boost_medium">Tăng vừa</string>
+    <string name="feed_volume_boost_heavy">Tăng nhiều</string>
+    <string name="feed_new_episodes_action_add_to_inbox">Thêm vào hộp thư đến</string>
+    <string name="feed_new_episodes_action_add_to_queue">Thêm vào hàng chờ</string>
+    <string name="feed_new_episodes_action_nothing">Không có gì</string>
+    <string name="feed_new_episodes_action_summary_autodownload">Đã bật tự động tải xuống. Các tập được thêm vào hộp thư đến và chuyển sang hàng chờ sau khi tải xong.</string>
+    <string name="feed_new_episodes_action_snackbar">Không thể thay đổi khi đang bật chế độ tự động tải xuống.</string>
+    <plurals name="episode_cleanup_hours_after_listening">
+        <item quantity="other">%d giờ sau khi nghe xong</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">%d ngày sau khi nghe xong</item>
+    </plurals>
+    <plurals name="num_subscriptions">
+        <item quantity="other">%d đăng ký</item>
+    </plurals>
+    <string name="episode_notification">Thông báo về tập</string>
+    <plurals name="new_episode_notification_title">
+        <item quantity="other">(Các) tập mới</item>
+    </plurals>
+    <string name="remove_all_inbox_label">Xoá hết hộp thư đến</string>
+    <string name="removed_all_inbox_msg">Đã xoá hết hộp thư đến</string>
+    <string name="remove_all_inbox_confirmation_msg">Vui lòng xác nhận rằng bạn muốn xoá hết hộp thư đến.</string>
+    <string name="multi_select_mark_played_confirmation">Vui lòng xác nhận bạn muốn đánh dấu các tập được chọn là đã nghe.</string>
+    <string name="multi_select_mark_unplayed_confirmation">Vui lòng xác nhận bạn muốn đánh dấu các tập được chọn là chưa nghe.</string>
+    <string name="show_feed_settings_label">Hiển thị cài đặt podcast</string>
+    <string name="feed_settings_label">Cài đặt podcast</string>
+    <string name="rename_feed_label">Đổi tên</string>
+    <string name="archive_feed_label_verb">Lưu trữ</string>
+    <string name="archive_feed_label_noun">Kho lưu trữ</string>
+    <string name="restore_archive_label">Khôi phục</string>
+    <string name="remove_archive_feed_label">Huỷ đăng ký / lưu trữ</string>
+    <string name="remove_restore_feed_label">Huỷ đăng ký / khôi phục</string>
+    <string name="remove_feed_label">Huỷ đăng ký</string>
+    <string name="share_label">Chia sẻ</string>
+    <string name="share_file_label">Chia sẻ tệp</string>
+    <string name="feed_delete_explanation_delete">Huỷ đăng ký kênh sẽ xoá toàn bộ các tập, các tệp đã tải xuống, lịch sử nghe và thông số.</string>
+    <string name="feed_delete_explanation_archive">Lưu trữ sẽ ẩn kênh đã đăng ký và không thêm các tập mới. Các tập đã tải xuống, thông số và trạng thái phát được giữ nguyên.</string>
+    <string name="archiving_podcast_progress">Lưu trữ podcast %1$d trong %2$d…</string>
+    <string name="restoring_podcast_progress">Khôi phục podcast %1$d trong %2$d…</string>
+    <string name="deleting_podcast_progress">Huỷ đăng ký podcast %1$d trong %2$d…</string>
+    <string name="load_complete_feed">Tải lại toàn bộ trang podcast</string>
+    <string name="multi_select">Chọn nhiều</string>
+    <string name="select_all_above">Chọn tất cả bên trên</string>
+    <string name="select_all_below">Chọn tất cả bên dưới</string>
+    <string name="multi_select_started_talkback">Các hành động chọn nhiều được hiển thị ở đáy</string>
+    <string name="refresh_failed_msg">Tải lại trang thất bại. Chạm để xem chi tiết.</string>
+    <string name="please_wait_before_refreshing">Vui lòng đợi một lát trước khi tải lại trang podcast lần nữa.</string>
+    <string name="open_podcast">Mở podcast</string>
+    <string name="please_wait_for_data">Vui lòng đợi cho đến khi dữ liệu được tải</string>
+    <string name="updates_disabled_label">Đã tắt cập nhật</string>
+    <plurals name="updated_feeds_batch_label">
+        <item quantity="other">%d kênh đăng ký được cập nhât.</item>
+    </plurals>
+    <string name="edit_tags">Sửa nhãn</string>
+    <string name="add_tag">Thêm nhãn</string>
+    <string name="rename_tag_label">Đổi tên nhãn</string>
+    <string name="delete_tag_label">Xoá nhãn</string>
+    <string name="delete_tag_confirmation">Vui lòng xác nhận bạn muốn xoá nhãn \"%1$s\".</string>
+    <string name="drawer_preferences">Tuỳ chọn điều hướng</string>
+    <string name="share_not_supported_local_feed">Không hỗ trợ chia sẻ với các thư mục cục bộ</string>
+    <string name="confirm_mobile_feed_refresh_dialog_message">Tính năng tải lại trang podcast qua kết nối dữ liệu di động đã bị tắt trong phần cài đặt.\n\nBạn vẫn muốn tải lại trang chứ?</string>
+    <string name="confirm_mobile_feed_refresh_dialog_message_vpn">Ứng dụng VPN của bạn đang giả làm mạng di động (kết nối có giới hạn dung lượng). Tính năng tải lại trang podcast qua kết nối dữ liệu di động đã bị tắt trong phần cài đặt.\n\nBạn vẫn muốn tải lại trang chứ? Nếu bạn muốn khắc phục vấn đề này, vui lòng liên hệ nhà phát triển ứng dụng VPN.</string>
+    <string name="delete_downloads_played">Xoá tập đã phát</string>
+    <string name="delete_downloads_played_confirmation">Vui lòng xác nhận rằng bạn muốn xoá tất cả các tập đã phát.</string>
+    <plurals name="downloading_episodes_message">
+        <item quantity="other">Đang tải %d tập.</item>
+    </plurals>
+    <plurals name="deleted_episode_message">
+        <item quantity="other">Đã xoá %d tập tải xuống.</item>
+    </plurals>
+    <string name="remove_inbox_label">Xoá khỏi hộp thư đến</string>
+    <string name="removed_from_inbox_message">Đã xoá khỏi hộp thư đến</string>
+    <string name="mark_as_played_label">Đánh dấu đã phát</string>
+    <string name="toggle_played_label">Thay đổi trạng thái đã phát</string>
+    <string name="mark_read_no_media_label">Đánh dấu là đã đọc</string>
+    <string name="play_this_to_seek_position_message">Để nhảy đến các vị trí, bạn cần phát tập này</string>
+    <plurals name="marked_as_played_message">
+        <item quantity="other">%d tập được đánh dấu là đã phát.</item>
+    </plurals>
+    <string name="mark_as_unplayed_label">Đánh dấu là chưa phát</string>
+    <string name="mark_unread_label_no_media">Đánh dấu là chưa đọc</string>
+    <plurals name="marked_as_unplayed_message">
+        <item quantity="other">%d tập được đánh dấu là chưa phát.</item>
+    </plurals>
+    <string name="add_to_queue_label">Thêm vào hàng chờ</string>
+    <plurals name="added_to_queue_message">
+        <item quantity="other">Đã thêm %d tập vào hàng chờ.</item>
+    </plurals>
+    <string name="remove_from_queue_label">Xoá khỏi hàng chờ</string>
+    <plurals name="removed_from_queue_message">
+        <item quantity="other">Đã xoá %d tập khỏi hàng chờ.</item>
+    </plurals>
+    <plurals name="removed_from_inbox_batch_label">
+        <item quantity="other">Đã xoá %d tập khỏi hộp thư đến.</item>
+    </plurals>
+    <string name="add_to_favorite_label">Thêm vào mục yêu thích</string>
+    <plurals name="added_to_favorites_message">
+        <item quantity="other">Đã thêm %d tập vào mục yêu thích.</item>
+    </plurals>
+    <string name="remove_from_favorite_label">Xoá khỏi mục yêu thích</string>
+    <plurals name="removed_from_favorites_message">
+        <item quantity="other">Đã xoá %d tập khỏi mục yêu thích.</item>
+    </plurals>
+    <string name="show_transcript">Hiện bản chép lời</string>
+    <string name="transcript">Bản chép lời</string>
+    <string name="transcript_follow_audio_label">Nghe theo bản ghi âm</string>
+    <string name="no_transcript_label">Không có bản chép lời</string>
+    <string name="visit_website_label">Ghé trang web</string>
+    <string name="visit_social_interact_confirm_dialog_message">Vui lòng đảm bảo rằng bạn tin tưởng trang \"%1$s\".</string>
+    <string name="reset_playback_position_label">Đặt lại vị trí phát</string>
+    <plurals name="reset_position_message">
+        <item quantity="other">Đã đặt lại %d vị trí phát tập.</item>
+    </plurals>
+    <string name="no_items_selected_message">Chưa chọn mục nào</string>
+    <string name="delete_local_feed_confirmation_dialog_message">Thao tác xoá sẽ loại bỏ tập podcast khỏi AntennaPod và xoá tệp phương tiện khỏi bộ nhớ thiết bị. Bạn sẽ không thể tải lại tập đó thông qua AntennaPod.</string>
+    <string name="download_error_details">Chi tiết</string>
+    <string name="download_log_details_message">%1$s \n\nNguyên nhân kỹ thuật: \n%2$s \n\nURL tệp:\n%3$s</string>
+    <string name="download_log_details_human_readable_reason_title">Trạng thái</string>
+    <string name="download_log_details_technical_reason_title">Thông tin kỹ thuật</string>
+    <string name="download_log_details_file_url_title">URL tệp</string>
+    <string name="download_log_open_feed">Mở</string>
+    <string name="download_error_retrying">Tải xuống \"%1$s\" thất bại. Sẽ thử lại sau.</string>
+    <string name="download_error_not_retrying">Tải xuống \"%1$s\" thất bại.</string>
+    <string name="download_error_tap_for_details">Chạm để xem chi tiết.</string>
+    <string name="download_error_insufficient_space">Thiết bị của bạn không còn đủ dung lượng.</string>
+    <string name="download_error_http_data_error">Lỗi dữ liệu HTTP</string>
+    <string name="download_error_error_unknown">Lỗi chưa xác định</string>
 </resources>
