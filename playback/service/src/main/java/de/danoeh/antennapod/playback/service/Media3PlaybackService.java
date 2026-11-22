@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.OptIn;
 import androidx.core.util.Pair;
+import androidx.media3.common.C;
 import androidx.media3.common.DeviceInfo;
 import androidx.media3.common.ForwardingPlayer;
 import androidx.media3.common.MediaItem;
@@ -654,6 +655,7 @@ public class Media3PlaybackService extends MediaLibraryService {
                 == FeedPreferences.SkipSilence.AGGRESSIVE;
         PlaybackPreferences.setCurrentlyPlayingTemporarySkipSilence(enabled);
         exoPlayer.setSkipSilenceEnabled(enabled);
+        exoPlayer.setWakeMode(needsStreaming(media) ? C.WAKE_MODE_NETWORK : C.WAKE_MODE_LOCAL);
         if (currentPlayable.getItem() != null && currentPlayable.getItem().getFeed() != null) {
             volumeAdaptionFactor = currentPlayable.getItem().getFeed()
                     .getPreferences().getVolumeAdaptionSetting().getAdaptionFactor();
