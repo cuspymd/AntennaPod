@@ -63,7 +63,8 @@ public class ExoPlayerUtils {
                         .setUsage(C.USAGE_MEDIA)
                         .setContentType(C.AUDIO_CONTENT_TYPE_SPEECH)
                         .build(), true)
-                .setMediaSourceFactory(new ApMediaSourceFactory(context, simpleCache))
+                .setMediaSourceFactory(new ApMediaSourceFactory(context, simpleCache)
+                        .setLoadErrorHandlingPolicy(new NetworkRetryLoadErrorHandlingPolicy()))
                 .setSeekParameters(SeekParameters.EXACT)
                 .setHandleAudioBecomingNoisy(UserPreferences.isPauseOnHeadsetDisconnect())
                 .build();
